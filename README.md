@@ -6,8 +6,8 @@ visual do robô. O projeto original [LaR Gazebo](https://github.com/JoaoVitorCLi
 
 ## Entrega final
 
-O experimento final validado no Gazebo produziu 556 amostras em 37,46 s, com
-RMSE planar de 1,34 cm e RMSE tridimensional de 1,41 cm. O relatório completo
+O experimento final validado no Gazebo produziu 481 amostras em 33,16 s, com
+RMSE planar de 2,21 cm e RMSE tridimensional de 2,26 cm. O relatório completo
 está em [`results/final_corrected/analysis.md`](results/final_corrected/analysis.md),
 com CSV, métricas, gráfico e vídeo demonstrativo:
 
@@ -15,6 +15,7 @@ com CSV, métricas, gráfico e vídeo demonstrativo:
 - [Métricas JSON](results/final_corrected/metrics.json)
 - [Gráfico de erros](results/final_corrected/errors.png)
 - [Vídeo demonstrativo](results/final_corrected/multi_camera_demo.mp4)
+- [Prévia do vídeo](results/final_corrected/preview.png)
 
 ## Arquitetura de localização
 

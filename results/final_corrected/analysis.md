@@ -16,13 +16,13 @@ dos dois raios fornece a posição tridimensional estimada.
 
 | Métrica | Resultado |
 |---|---:|
-| Amostras pareadas | 556 |
-| Duração | 37,46 s |
-| RMSE planar | 0,0134 m (1,34 cm) |
-| MAE planar | 0,0124 m (1,24 cm) |
-| RMSE 3D | 0,0141 m (1,41 cm) |
-| Erro 3D máximo | 0,0295 m (2,95 cm) |
-| Percentil 95 do erro 3D | 0,0225 m (2,25 cm) |
+| Amostras pareadas | 481 |
+| Duração | 33,16 s |
+| RMSE planar | 0,0221 m (2,21 cm) |
+| MAE planar | 0,0204 m (2,04 cm) |
+| RMSE 3D | 0,0226 m (2,26 cm) |
+| Erro 3D máximo | 0,0390 m (3,90 cm) |
+| Percentil 95 do erro 3D | 0,0324 m (3,24 cm) |
 
 O ground truth vertical foi ajustado pela altura mecânica conhecida de 0,72 m,
 pois o Gazebo fornece a pose da base do Husky e o detector estima o centro da
@@ -52,3 +52,4 @@ real do OptiTrack depende de iluminação e câmeras infravermelhas.
 - `metrics.json`: métricas calculadas;
 - `errors.png`: trajetória e erros ao longo do tempo;
 - `multi_camera_demo.mp4`: vídeo das duas câmeras anotadas.
+- `preview.png`: quadro de prévia com os rótulos e a pose triangulada.
